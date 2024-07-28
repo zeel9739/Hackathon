@@ -1,0 +1,38 @@
+.simple {
+    font-size: 18px;
+    color: #ff9800;
+    font-family: "Red Hat Display";
+    letter-spacing: 0.11em;
+    font-weight: bold;
+}
+
+.bgColor {
+    background-color: #ff9800 !important;
+    color: #ffff !important;
+}
+
+.MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 98%;
+}
+
+.namebox {
+    border-radius: 7px 0px 0px 7px;
+    width: 106%;
+    letter-spacing: 0.11em;
+    font-size: 1.2em;
+    font-family: "'Red Hat Display', sans-serif";
+    font-weight: bold;
+    color: gray;
+    background: #e5e5e5;
+}

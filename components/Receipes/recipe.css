@@ -1,0 +1,9 @@
+.smallDevices {
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .smallDevices {
+        margin-right: 0;
+    }
+}

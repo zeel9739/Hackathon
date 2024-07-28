@@ -1,0 +1,393 @@
+/* With arrow on hover left*/
+.css-button-arrow--orange {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff9800;
+}
+.css-button-arrow--orange:hover {
+  border-radius: 30px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.css-button-arrow--orange:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.css-button-arrow--orange:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+/* With arrow on hover left*/
+.css-button-arrow {
+  min-width: 80px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  letter-spacing: 0.11em;
+  border: none;
+  background-color: #ff9800;
+}
+.css-button-arrow:hover {
+  border-radius: 30px;
+  padding-left: 24px;
+  padding-right: 8px;
+}
+.css-button-arrow:hover:after {
+  opacity: 1;
+  left: 10px;
+}
+.css-button-arrow:after {
+  content: "\00AB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  left: -20px;
+  transition: 0.4s;
+}
+/* With arrow on hover right*/
+/* with small button */
+.css-button-arrow--orange-right {
+  min-width: 80px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  letter-spacing: 0.11em;
+
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff9800;
+}
+.css-button-arrow--orange-right:hover {
+  border-radius: 30px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.css-button-arrow--orange-right:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.css-button-arrow--orange-right:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+/* new button */
+/* With shadow border (sliding effect) */
+.css-button-shadow-border-sliding--green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: #ff9800;
+  z-index: 1;
+}
+.css-button-shadow-border-sliding--green:hover:after {
+  width: 100%;
+  left: 0;
+}
+.css-button-shadow-border-sliding--green:after {
+  border-radius: 30px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-color: #e0921c;
+  right: 0;
+}
+.css-button-shadow-border-sliding--green:active {
+  top: 2px;
+}
+
+/* //view more main page// */
+/* Sliding effect (right to left) */
+.css-button-sliding-to-left--grey {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ff9800;
+  color: #ff9800;
+}
+.css-button-sliding-to-left--grey:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--grey:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--grey:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ff9800;
+}
+
+/* back button */
+/* Sliding effect (right to left) */
+.css-button-sliding-to-left--green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ff9800;
+  color: #ff9800;
+}
+.css-button-sliding-to-left--green:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--green:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--green:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ff9800;
+}
+
+/* account button in cancel  */
+.css-button-rounded--greenCancel {
+  min-width: 130px;
+  height: 40px;
+  color: #ff9800;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 0.11em;
+  border: 2px solid #ff9800;
+  background: #fff;
+}
+.css-button-rounded--greenCancel:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
+/* save button */
+.css-button-sharp--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 0.11em;
+  border: 2px solid #ff9800;
+  background: #ff9800;
+}
+.css-button-sharp--blue:hover {
+  background: #fff;
+  color: #ff9800;
+}
+
+/* sign in  button */
+.css-button-sharp--sign-in {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 30px;
+  letter-spacing: 0.11em;
+  border: 2px solid #ff9800;
+  background: #ff9800;
+}
+.css-button-sharp--sign-in:hover {
+  background: #fff;
+  color: #ff9800;
+}
+
+
+/* Sliding effect (bottom to top) */
+
+.css-button-sliding-to-top--green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ff9800;
+  letter-spacing: 0.2rem;
+  color: #ff9800;
+}
+.css-button-sliding-to-top--green:hover {
+  color: #fff;
+}
+.css-button-sliding-to-top--green:hover:after {
+  height: 100%;
+}
+.css-button-sliding-to-top--green:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background: #ff9800;
+}
+
+/* create playlist button */
+.css-button-fully-rounded--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #ff9800;
+  background: #ff9800;
+  letter-spacing: 0.15em;
+}
+.css-button-fully-rounded--blue:hover {
+  background: #fff;
+  color: #ff9800
+}
+
+
+
+/* create channel mate */
+.css-button-retro--yellow {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 1;
+}
+.css-button-retro--yellow:hover:after {
+  top: 0;
+  left: 0;
+}
+.css-button-retro--yellow:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #ff9800;
+}

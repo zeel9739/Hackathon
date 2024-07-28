@@ -1,0 +1,143 @@
+.reaciplyImg {
+    height: 432px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 20px 0px 0px 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.reciplyDetail {
+    height: 432px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.rdetail {
+    justify-content: center;
+    align-items: center;
+}
+
+.root {
+    min-width: 275;
+    width: 100%;
+    background-color: #ffeac2;
+}
+
+.root1 {
+    font-size: 19px;
+    line-height: 25px;
+    color: #ff9800;
+}
+
+.recipyname {
+    font-size: 40px;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.recipy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+
+.cook {
+    display: flex;
+}
+
+.steps {
+    size: 70px;
+    font-weight: bold;
+}
+
+.stepname {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.steps {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.btnstyle {
+    background-color: #ffeac2;
+}
+
+.based {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #7a7a7a;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.recipymain {
+    padding: 0 15px;
+}
+
+.recipyimg {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.recipyname1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+}
+
+.recipyanme2 {
+    font-family: Rounded Mplus 1c;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+}
+
+.symbol {
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 0.42rem;
+}
+
+.symbol.symbol-lg-120>img {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    border-radius: 65px;
+}

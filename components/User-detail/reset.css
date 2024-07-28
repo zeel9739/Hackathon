@@ -1,0 +1,35 @@
+.wap {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.up {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 130px;
+  letter-spacing: 0.08em;
+  text-decoration-line: underline;
+  color: #ff9800;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #ff9800;
+}
+.left {
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #ff9800;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

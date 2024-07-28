@@ -1,0 +1,22 @@
+.simple {
+  font-size: 18px;
+  color: #ff9800;
+  font-family: "Red Hat Display";
+  letter-spacing: 0.11em;
+  font-weight: bold;
+}
+
+.bgColor {
+  background-color: #ff9800 !important;
+  color: #ffff !important;
+}
+.MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+.css-1408zar-MuiDataGrid-root .MuiDataGrid-cell{
+  white-space: pre-wrap !important;
+}
+.css-1e9qrfi-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: rgb(255 152 0) !important;
+}

@@ -1,0 +1,31 @@
+.link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  align-items: center;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.socialicon {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.btnsumbit {
+  color: "primary";
+  margin: "8px 0";
+  align-items: center;
+  background: #ff9800;
+}
+
+.remember-me-checkbox span {
+  font-size: 12px;
+}
